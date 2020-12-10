@@ -1,78 +1,122 @@
-
 body {
     width: 100%;
     height: 100%;
-    margin: 0
 }
 
-#site-header {
-    background-color: white;
-    height: 80px;
-    width: 100%;
-}
-
-.container {
+#top {
     display: flex;
-    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
 }
 
-.nav-bar {
-    background-color: white;
-    height: 30px;
-    width: 1000px;
-    border-radius: 10px;
+#mainbody {
     display: flex;
-    
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 1196px;
+    width: 1010px;
+    margin: 0 auto;
+    background-color: lightgray;
 }
 
-#site-container {
-    background-color: green;
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray
 }
 
-.left-container {
+#logoetc {
+    width: 1010px;
+    height: 47px;
+    padding: 16px 0;
+    position: relative;
+}
+
+#navbar {
+    position: relative;
+    width: 1006px;
+    height: 32px;
+}
+
+#searchres {
+    position: relative;
+    width: 672px;
+    height: 48px;
+    margin: 0 9px 8px 0;
+    padding-bottom: 8px;
+    background-color: red
+}
+
+#searchstuff {
+    position: relative;
+    width: 672px;
+    height: 194.5px;
+    margin: 0 9px 8px 0;
+    padding-bottom: 8px;
+    background-color: red
+}
+
+#games {
+    position: relative;
+    width: 672px;
+    height: 526px;
+    margin: 0 9px 8px 0;
+    padding-bottom: 8px;
+    background-color: red
+}
+
+#empty {
+    position: relative;
+    width: 672px;
+    height: 369px;
+    margin: 0 9px 8px 0;
+    background-color: red
+}
+
+#advert {
+    position: relative;
+    width: 298px;
+    height: 268px;
+    background-color: red;
+    margin: 0 0 8px;
+    padding: 12px;
+}
+
+#multiplayer {
+    position: relative;
+    width: 321px;
+    height: 287px;
+    margin: 0 0 8px;
     background-color: red;
 }
 
-.head-bar {
-
+#phone {
+    position: relative;
+    width: 325px;
+    height: 291px;
+    margin: 0 0 8px;
+    background-color: red;
 }
 
-.search-container {
-
+#foot-top {
+    position: relative;
+    width: 974px;
+    height: 32px;
+    padding: 16px;
 }
 
-.games-container {
-
+#foot-mid {
+    position: relative;
+    width: 974px;
+    height: 32px;
+    padding: 16px;
 }
 
-.right-container {
-    background-color: purple;
-}
-
-.advert-container {
-
-}
-
-.multiplayer-container {
-
-}
-
-.phone-container {
-
-}
-
-.site-footer {
-    background-color: orange;
-}
-
-.footer-nav {
-
-}
-
-.footer-info {
-
-}
-
-.footer-legal {
-
+#foot-bot {
+    position: relative;
+    width: 974px;
+    height: 60px;
+    padding: 16px;
 }
