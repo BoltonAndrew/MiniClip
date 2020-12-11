@@ -122,6 +122,159 @@ body {
     border-radius: 6px;
     background-color: white;
     display: flex;
+    justify-content: space-around;
+}
+
+#nav-bar-first {
+    position: relative;
+    border-radius: 4px 0 0 4px;
+    height: 32px;
+    background-color: #e4e4e4;
+    padding: 0 8px;
+    border-width: 0.5px 0 0.5px 0.5px;
+    border: 0.5px solid #666;
+    bottom: 4px;
+}
+
+.nav-img {
+    position: relative;
+    top: 5px;
+}
+
+.nav-bar {
+    position: relative;
+    height: 32px;
+    width: 100px;
+    background-color: #e4e4e4;
+    padding: 0 8px;
+    border-width: 0.5px 0 0.5px 0.5px;
+    border: 0.5px groove #666;
+    font-size: 12px;
+    color:  #004BAC;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 4px;
+}
+
+.nav-text1 {
+    position: relative;
+    margin: 0 6px;
+}
+
+.nav-text1::before {
+    position: relative;
+    content: url(assets/ball.png);
+    top: 4px;
+    right: 2px;
+}
+
+.nav-text2 {
+    position: relative;
+    margin: 0 6px;
+}
+
+.nav-text2::before {
+    position: relative;
+    content: url(assets/star.png);
+    top: 4px;
+    right: 2px;
+}
+
+.nav-text3 {
+    position: relative;
+    margin: 0 6px;
+}
+
+.nav-text3::before {
+    position: relative;
+    content: url(assets/tank.png);
+    top: 4px;
+    right: 2px;
+}
+
+.nav-text4 {
+    position: relative;
+    margin: 0 6px;
+}
+
+.nav-text4::before {
+    position: relative;
+    content: url(assets/castle.png);
+    top: 4px;
+    right: 2px;
+}
+
+.nav-text5 {
+    position: relative;
+    margin: 0 6px;
+}
+
+.nav-text5::before {
+    position: relative;
+    content: url(assets/action.png);
+    top: 4px;
+    right: 2px;
+}
+
+.nav-text6 {
+    position: relative;
+    margin: 0 6px;
+}
+
+.nav-text6::before {
+    position: relative;
+    content: url(assets/multi.png);
+    top: 4px;
+    right: 2px;
+}
+
+.nav-text7 {
+    position: relative;
+    margin: 0 6px;
+}
+
+.nav-text7::before {
+    position: relative;
+    content: url(assets/puzzle.png);
+    top: 4px;
+    right: 2px;
+}
+
+.nav-text8 {
+    position: relative;
+    margin: 0 6px;
+}
+
+.nav-text8::before {
+    position: relative;
+    content: url(assets/android.png);
+    top: 4px;
+    right: 2px;
+}
+
+.nav-text9 {
+    position: relative;
+    margin: 0 6px;
+}
+
+.nav-text9::before {
+    position: relative;
+    content: url(assets/android.png);
+    top: 4px;
+    right: 2px;
+}
+
+#nav-bar-last {
+    position: relative;
+    border-radius: 0 4px 4px 0;
+    height: 32px;
+    background-color: #e4e4e4;
+    padding: 0 8px;
+    border-width: 0.5px 0 0.5px 0.5px;
+    border: 0.5px solid #666;
+    bottom: 4px;
 }
 
 #image {
