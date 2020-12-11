@@ -123,6 +123,7 @@ body {
     background-color: white;
     display: flex;
     justify-content: space-around;
+    border: 1px solid white;
 }
 
 #nav-bar-first {
@@ -132,7 +133,7 @@ body {
     background-color: #e4e4e4;
     padding: 0 8px;
     border-width: 0.5px 0 0.5px 0.5px;
-    border: 0.5px solid #666;
+    border: 0.5px solid lightslategray;
     bottom: 4px;
 }
 
@@ -148,7 +149,7 @@ body {
     background-color: #e4e4e4;
     padding: 0 8px;
     border-width: 0.5px 0 0.5px 0.5px;
-    border: 0.5px groove #666;
+    border: 0.5px solid lightslategray;
     font-size: 12px;
     color:  #004BAC;
     font-weight: 600;
@@ -166,8 +167,8 @@ body {
 .nav-text1::before {
     position: relative;
     content: url(assets/ball.png);
-    top: 4px;
-    right: 2px;
+    top: 6px;
+    right: 5px;
 }
 
 .nav-text2 {
@@ -178,8 +179,8 @@ body {
 .nav-text2::before {
     position: relative;
     content: url(assets/star.png);
-    top: 4px;
-    right: 2px;
+    top: 5px;
+    right: 5px;
 }
 
 .nav-text3 {
@@ -191,7 +192,7 @@ body {
     position: relative;
     content: url(assets/tank.png);
     top: 4px;
-    right: 2px;
+    right: 5px;
 }
 
 .nav-text4 {
@@ -203,7 +204,7 @@ body {
     position: relative;
     content: url(assets/castle.png);
     top: 4px;
-    right: 2px;
+    right: 5px;
 }
 
 .nav-text5 {
@@ -215,14 +216,19 @@ body {
     position: relative;
     content: url(assets/action.png);
     top: 4px;
-    right: 2px;
+    right: 5px;
 }
 
 .nav-text6 {
     position: relative;
     margin: 0 6px;
     color:  #004BAC;
-    font-weight: 600
+    font-weight: 600;
+}
+
+.wide {
+    position: relative;
+    width: 125px;
 }
 
 .nav-text6::before {
@@ -241,7 +247,7 @@ body {
     position: relative;
     content: url(assets/puzzle.png);
     top: 4px;
-    right: 2px;
+    right: 5px;
 }
 
 .nav-text8 {
@@ -252,8 +258,8 @@ body {
 .nav-text8::before {
     position: relative;
     content: url(assets/android.png);
-    top: 4px;
-    right: 2px;
+    top: 2px;
+    right: 5px;
 }
 
 .nav-text9 {
@@ -264,8 +270,8 @@ body {
 .nav-text9::before {
     position: relative;
     content: url(assets/android.png);
-    top: 4px;
-    right: 2px;
+    top: 2px;
+    right: 5px;
 }
 
 #nav-bar-last {
@@ -283,6 +289,8 @@ body {
     position: relative;
     width: 1010px;
     height: 170px;
+    top: 40px;
+    right: 50px;
 }
 
 #searchres {
@@ -495,7 +503,7 @@ h2 {
     align-items: center;
 }
 
-#first-ad {
+.first-ad {
     color: gray;
     font-size: 11px;
 }
@@ -661,7 +669,56 @@ h2 {
     background-color: #09f;
     top: 2px;
     display: flex;
-    
+    text-align: center;
+}
+
+.foot-text {
+    position: relative;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 15px;
+    padding-left: 10px;
+    bottom: 4px;
+}
+
+.bef1 {
+    position: relative;
+    bottom: 10px;
+    left: 16px;
+}
+
+.bef2 {
+    position: relative;
+    bottom: 10px;
+    left: 16
+}
+
+.bef3 {
+    position: relative;
+    bottom: 10px;
+    left: 16
+}
+
+.bef1::before {
+    content: url(assets/home2.png);
+    position: relative;
+    top: 2px;
+    right: 4px;
+}
+
+.bef2::before {
+    content: url(assets/blog.png);
+    position: relative;
+    top: 2px;
+    right: 4px;
+}
+
+.bef3::before {
+    content: url(assets/games.png);
+    position: relative;
+    top: 5px;
+    right: 4px;
 }
 
 #foot-mid {
@@ -670,6 +727,16 @@ h2 {
     height: 32px;
     padding: 16px;
     border-radius: 4px;
+    display: flex;
+}
+
+.base-text {
+    color: #036;
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 12px;
+    position: relative;
+    margin: 5px 10px;
 }
 
 #foot-bot {
@@ -678,4 +745,39 @@ h2 {
     height: 60px;
     padding: 16px;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+#foot-legal {
+    position: relative;
+    display: flex;
+}
+
+#bef4::before {
+    content: url(assets/help.png);
+    position: relative;
+    right: 2px;
+    top: 5px;
+}
+
+#youtube {
+    position: relative;
+    width: 122px;
+    height: 24px;
+    top: 8px;
+    left: 255px;
+}
+
+#copywrite {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#signature {
+    position: relative;
+    color: gray;
+    font-size: 11px;
+    align-items: center;
 }
