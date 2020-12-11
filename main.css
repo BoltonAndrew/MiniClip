@@ -521,7 +521,8 @@ h2 {
     border: 0.5px solid lightgray;
     text-align: center;
     font-size: 13px;
-    bottom: 13px
+    bottom: 19px;
+    left: 1px;
 }
 
 #multiplayer-games {
@@ -545,7 +546,7 @@ h2 {
     font-weight: 400;
 }
 
-#multi-button {
+.multi-button {
     position: relative;
     height: 36px;
     width: 295px;
@@ -555,14 +556,14 @@ h2 {
     border: 0.5px solid lightslategray;
 }
 
-#more-multi {
+.more-multi {
     color: #004BAC;
     font-weight: 600;
     position: relative;
     bottom: 5px;
 }
 
-#more-multi::after {
+.more-multi::after {
     position: relative;
     content: url(assets/android.png);
     left: 2px;
@@ -576,6 +577,79 @@ h2 {
     margin: 0 0 8px;
     border-radius: 4px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#phone-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#phone-right {
+    position: relative;
+    background-color: #0087e0;
+    border-radius: 4px 4px 0 0;
+    width: 160px;
+    height: 30px;
+    border: 0.5px solid #0087e0;
+}
+
+#phone-left {
+    position: relative;
+    background-color: white;
+    border-radius: 4px 4px 0 0;
+    width: 160px;
+    height: 30px;
+    border: 0.5px solid lightskyblue;
+    border-bottom-color: transparent;
+}
+
+.phone-textl {
+    position: relative;
+    color: lightblue;
+    text-align: center;
+    font-weight: 600;
+    bottom: 10px;
+}
+
+.phone-textr {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    bottom: 10px;
+}
+
+#phone-game {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.phone-game-hold {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.phone-game-text {
+    position: relative;
+    color: #004BAC;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+}
+
+#advert-image {
+    position: relative;
+    bottom: 10px;
+    right: 13px;
 }
 
 #foot-top {
@@ -586,6 +660,8 @@ h2 {
     padding: 16px;
     background-color: #09f;
     top: 2px;
+    display: flex;
+    
 }
 
 #foot-mid {
